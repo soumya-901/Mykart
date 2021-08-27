@@ -1,0 +1,40 @@
+#fullBox{
+    background-color: #c4c4c43d;
+    margin-top: 4rem;
+}
+#category{
+    margin: 5px;
+    border: 1px solid rgb(170, 170, 170);
+   /* height: 60px; */
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    /* padding: 0px 20px;   */
+}
+
+#each-category {
+    /* border: 2px solid black; */
+    height: 95px;
+    width: max-content;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+    
+}
+#each-category a{
+    text-decoration: none;
+}
+#each-category img{
+    /* border: 2px solid black; */
+    height: 70px;
+    width: 70px;
+}
+
+#each-category div{
+    /* border: 2px solid black;*/
+    text-align: center; 
+    padding-left: 5px;
+    color: rgb(0, 0, 0);
+       
+}

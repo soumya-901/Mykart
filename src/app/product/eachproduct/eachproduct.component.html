@@ -1,0 +1,25 @@
+<div (click)="productDetail(product)" id="each-box">
+    <div>
+        <img src="{{product.image}}" alt="check your interner connection">
+    </div>
+    <div>
+        <h4>{{product.title}}
+        </h4>
+    </div>
+    <div>
+        <p> <span>Price -</span>  &#8377; {{product.price | number : '1.0-0'}} </p>
+    </div>
+     <!-- <div>
+        <button (click)="addToCart(product)" id={{btnStyle}} >{{btnName}}</button>
+    </div>  -->
+
+</div>
+<!-- <div (click)="productDetail(product)" class="card" style="width: 18rem; height: 25rem;">
+    <img src="{{product.image}}" class="card-img-top" style="width: 15rem; height: 18rem;" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{product.title}}</h5>
+      <p> <span>Price -</span>  &#8377; {{product.price | number : '1.0-0'}} </p>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+      
+    </div>
+  </div> -->

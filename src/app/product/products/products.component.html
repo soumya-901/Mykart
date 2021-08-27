@@ -1,0 +1,6 @@
+<div id="display" >
+    <span id="container" *ngFor ="let item of products; let i = index">
+        <!-- (addtocart)="AddToCart($event)"  -- is used for event lister from eachproduct component to products componet-->
+        <app-eachproduct [product]="item" ></app-eachproduct>
+    </span>
+</div>

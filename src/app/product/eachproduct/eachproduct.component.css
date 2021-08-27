@@ -1,0 +1,52 @@
+#each-box{
+    margin: 20px;
+    /* margin-top: 30px; */
+    /* display:flex;
+    flex-direction: column; */
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #cdcbcb;
+}
+#each-box:hover{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px 5px grey;
+    transition:   .5s ease;
+
+}
+
+#each-box img{
+    height: 230px;
+    width: 200px;
+    margin:0.2rem;
+    
+
+}
+#each-box h4{
+    width: 200px;
+    color: blue;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100ch;
+    margin:0.2rem;
+}
+#each-box p {
+    color: black;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300ch;
+    margin:0.2rem;
+
+}
+
+#each-box p{
+    font-size: 23px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+span{
+    font-size: 19px;
+    color: rgb(9, 128, 9);
+    }

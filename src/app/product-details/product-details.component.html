@@ -1,0 +1,111 @@
+<div id="zero">
+    <div id="first">
+
+        <img src="{{EachProduct.image}}" alt="" />
+        <div id="insideF">
+
+            <button (click)="addToCart(EachProduct)" [disabled]="btnDisble" class="btn-a"><b> ADD TO CART </b></button>
+            <button (click)="buyProduct(EachProduct)" class="btn-b"><b> BUY NOW </b></button>
+        </div>
+    </div>
+    <div id="second">
+        <h2>{{EachProduct.title}}</h2>
+        <p style="color: gray;" class="p-1"> <span class="sp-a">4.7</span> 19 Ratings & 3 Reviews</p>
+        <p> <span style="font-size: 40px;"> {{EachProduct.price | number : '1.0-0'}} </span> <s class="s-1">₹900</s> <span class="sp-b">58% off</span>
+        </p>
+        <div class="row">
+            <div class="col-1">
+                <p>Description</p>
+            </div>
+            <div class="col-3">
+                <p> {{EachProduct.description}} </p>
+            </div>
+        </div>
+        <!-- <p class="p-1"> <b>Available offers</b> </p>
+        <p class="p-1"> <b>Bank Offer</b> 5% Unlimited Cashback on Flipkart Axis Bank Credit Card <a href=""
+                class="a-a">T&C</a></p>
+        <p class="p-1"> <b>Bank Offer</b> 20% off on 1st txn with Amex Network Cards issued by ICICI Bank,IndusInd
+            Bank,SBI Cards and Mobikwik <a href="" class="a-a">T&C</a> </p>
+        <p class="p-1"> <b>Bank Offer</b> 5% off upto ₹25 on any prepaid instrument <a href="" class="a-a">T&C</a>
+        </p>
+        <p class="p-1"> <b>Bank Offer</b> Flat ₹100 off on first Flipkart Pay Later order of ₹500 and above <a
+                href="" class="a-a">T&C</a></p> -->
+
+        <!-- <div class="row">
+            <div class="col-1">
+                <p>Delivery</p>
+            </div>
+            <div class="col-2">
+                <input type="number" placeholder="Enter Delivery Pincode"
+                    style="padding: 10px 20px; border: none; border-bottom: 1px solid rgb(9, 95, 253);" />
+                <button class="btn-c">Check</button> <br />
+                <p class="p-1"> <b>Usually delivered in3 days?</b> </p> <br />
+                <p>Enter pincode for exact delivery dates/charges</p> <br />
+                <a href="" class="a-aa">View Details</a>
+            </div>
+        </div> -->
+        <div class="row">
+            <!-- <div class="col-1">
+                <p>Highlights
+                </p>
+            </div> -->
+            <!-- <div class="col-2">
+                <ul>
+                    <li>Pattern: Printed</li>
+                    <li>Material: Paper</li>
+                    <li>For Birthday, Wedding, Season's Greetings, Party, Festivals</li>
+                    <li>Theme: Dotted</li>
+                    <li>Party Bag</li>
+                </ul>
+            </div> -->
+            <!-- <div class="col-1">
+                <p>Services</p>
+            </div>
+            <div class="col-2">
+                <p class="p-1">7 Days Replacement Policy?</p>
+                <p class="p-1">Cash on Delivery available?</p>
+            </div> -->
+        </div>
+        <!-- <div class="row">
+            <div class="col-1">
+                <p>Seller</p>
+            </div>
+            <div class="col-2">
+                <a href="" class="a-aa">AABags4.5</a>
+                <ul>
+                    <li>7 Days Replacement Policy?</li>
+                </ul>
+            </div>
+        </div> -->
+        
+
+        <div class="bingo">
+            <!-- <div class="row-b">
+                <h2 style="padding: 30px 30px;">Specifications</h2>
+            </div>
+            <div class="row-b">
+                <div class="col-4">
+                    <p class="p-1">Model Number</p>
+                    <p class="p-1">Pack of</p>
+                </div>
+                <div class="col-5">
+                    <p class="p-1">Laminated Dotted Design (15x11x4inch)</p>
+                    <p class="p-1">10</p>
+                </div>
+            </div>
+            <div class="row-b">
+                <div class="col-4">
+                    <p class="p-2"> <b>More Details</b> </p>
+                    <p class="p-3">Generic Name</p>
+                    <p class="p-3">Country of Origin</p>
+                </div> -->
+                <div class="col-5">
+                    <br />
+                    <p class="p-3"> {{EachProduct.category}}</p>
+                    <p class="p-3">India</p>
+
+                </div>
+            <!-- </div> -->
+        </div>
+    </div>
+</div>

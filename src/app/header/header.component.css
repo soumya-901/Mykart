@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#nav-bar{
+    background: rgb(40,116,240);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 7px;
+    
+}
+#nav-bar label{
+    font-size: 30px;
+    color: white;
+    margin: 0 40px;
+}
+#nav-bar input{
+    padding: 0px 31px;
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+}
+
+#nav-bar button{
+    background: white;
+    padding: 7px 25px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    margin: 0px 9px;
+    border: 2px solid rgb(255, 255, 255);
+}
+#nav-bar button:hover{
+    background: rgb(40,116,240);
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+}
+#nav-bar ul{
+    list-style: none;
+    /* display: flex; */
+}
+#nav-bar  a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color:white;
+    display: flex;
+    border-radius: 50px;
+    margin: 0 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#nav-bar  a:hover{
+   background: white;
+   color: rgb(45, 136, 211);
+}
+.nav-btn{
+    float: right;
+}
+.nav-one{
+    width: 80%;
+    display: flex;
+}
+.nav-two{
+    width: 20%;
+    display: flex;
+}
+#nav-bar img{
+    height: 30px;
+    padding: 5px;
+    margin: 0 10px;
+}
+#nav-bar img:hover{
+   height: 32px;
+   padding: 4px;
+}
